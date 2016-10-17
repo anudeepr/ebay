@@ -1,0 +1,924 @@
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:02:02.869Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:02:04.066Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:02:02.877Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:02:04.066Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T17:02:04.066Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:03:47.991Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:03:48.553Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:03:48.000Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:03:48.554Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T17:03:48.554Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:04:05.535Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:04:06.293Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:04:31.432Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:04:32.307Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:09:08.364Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:09:10.272Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:10:47.109Z"}
+{"level":"info","message":"User Id: 3, s, get products called","timestamp":"2016-10-13T17:10:49.294Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:12:59.811Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:13:40.147Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:13:46.393Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:13:48.521Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:07.439Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:10.264Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:28.475Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:30.943Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:52.078Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:14:58.902Z"}
+{"level":"info","message":"User Id: 3, test, asdf","timestamp":"2016-10-13T17:16:55.218Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:16:55.260Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:16:55.280Z"}
+{"level":"info","message":"User Id: 3, test, asdf","timestamp":"2016-10-13T17:16:57.541Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:17:22.039Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:17:22.055Z"}
+{"level":"info","message":"User Id: 3, test, asdf","timestamp":"2016-10-13T17:17:23.360Z"}
+{"level":"info","message":"User Id: 3, test, asdf","timestamp":"2016-10-13T17:18:11.564Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:18:16.610Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:18:17.459Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:18:26.935Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:18:27.648Z"}
+{"level":"info","message":"User Id: 3, Dell Inspirion 9 Laptop - 8gb Ram - Intel Processor - Powerfull battery link,  link clicked http://localhost:4000/shopping/product/4","timestamp":"2016-10-13T17:19:15.556Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:22:05.917Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:22:05.932Z"}
+{"level":"info","message":"User Id: 3, Today link,  link clicked http://localhost:4000/#/","timestamp":"2016-10-13T17:22:31.709Z"}
+{"level":"info","message":"User Id: 3, Dr Dre Beats Headphones - Dr Dre Beats Headphones - Over ear piece - Bluetooth headphones link,  link clicked http://localhost:4000/shopping/product/6","timestamp":"2016-10-13T17:23:07.467Z"}
+{"level":"info","message":"User Id: 3, Remove link,  link clicked http://localhost:4000/","timestamp":"2016-10-13T17:25:06.288Z"}
+{"level":"info","message":"User Id: 3,   Search   link,  link clicked undefined","timestamp":"2016-10-13T17:27:14.757Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T17:27:17.943Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-13T17:27:21.025Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:21.092Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:21.103Z"}
+{"level":"info","message":"User Id: 3, nike shorts - black nike shorts link, Id:  link clicked http://localhost:4000/shopping/product/1","timestamp":"2016-10-13T17:27:27.876Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:34.909Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:34.919Z"}
+{"level":"info","message":"User Id: 3, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-13T17:27:39.240Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:39.279Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:27:39.285Z"}
+{"level":"info","message":"User Id: 3, Captain America Action Figure - Captain America Action Figure by toys r us link, Id:  link clicked http://localhost:4000/shopping/product/9","timestamp":"2016-10-13T17:27:40.923Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=9 form method","timestamp":"2016-10-13T17:27:51.272Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:30:20.995Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:30:21.552Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:30:21.001Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:30:21.554Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T17:30:21.554Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:36:16.807Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:36:17.449Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:36:16.822Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:36:17.450Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T17:36:17.450Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:36:51.952Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:36:51.959Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-13T17:36:54.661Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:36:54.720Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:36:54.726Z"}
+{"level":"info","message":"User Id: 3, sad - asdasd link, Id:  link clicked http://localhost:4000/shopping/product/18","timestamp":"2016-10-13T17:37:04.011Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:40:24.615Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T17:40:25.054Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:40:24.623Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T17:40:25.055Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T17:40:25.056Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T17:40:54.356Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T17:40:58.197Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-13T17:40:59.030Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:40:59.076Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:40:59.083Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-13T17:41:00.507Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:00.529Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:00.538Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T17:41:01.610Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-13T17:41:03.247Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:03.268Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:03.274Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-13T17:41:11.050Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:11.063Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T17:41:11.070Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T18:11:42.015Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T18:11:42.533Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T18:11:42.026Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T18:11:42.533Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T18:11:42.533Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:11:51.140Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:11:51.156Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:12:24.791Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:12:24.806Z"}
+{"level":"info","message":"User Id: 3, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-13T18:12:28.978Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T18:12:55.604Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T18:12:56.170Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T18:12:55.614Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T18:12:56.170Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T18:12:56.170Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:13:12.549Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:13:12.553Z"}
+{"level":"info","message":"User Id: 3, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-13T18:13:15.828Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:13:32.848Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:13:32.860Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-13T18:13:37.014Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-13T18:16:16.343Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T18:16:18.030Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-13T18:16:21.484Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-13T18:16:24.117Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:24.133Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:24.145Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-13T18:16:25.453Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:25.469Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:25.479Z"}
+{"level":"info","message":"User Id: 3, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-13T18:16:27.359Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:27.375Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:27.385Z"}
+{"level":"info","message":"User Id: 3, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-13T18:16:28.274Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:28.289Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:28.293Z"}
+{"level":"info","message":"User Id: 3, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-13T18:16:29.575Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:29.592Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:29.598Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:53.441Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:53.447Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-13T18:16:56.339Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:56.358Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:16:56.362Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-13T18:16:57.362Z"}
+{"level":"info","message":"User Id: 3, AnudeepRentala1 link, Id: username link clicked http://localhost:4000/user/3","timestamp":"2016-10-13T18:16:59.759Z"}
+{"level":"info","message":"User Id: 3, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-13T18:17:10.584Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:17:10.620Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:17:10.624Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:18:04.109Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:18:04.113Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:18:11.190Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:18:11.196Z"}
+{"level":"info","message":"User Id: 3, Sell link, Id:  link clicked http://localhost:4000/sell","timestamp":"2016-10-13T18:18:17.007Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:30:47.921Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:30:47.926Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:31:00.577Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:31:00.589Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:38:16.930Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-13T18:38:16.934Z"}
+{"level":"info","message":"User Id: 3, Apple Mac Book Air -  link, Id:  link clicked http://localhost:4000/shopping/product/29","timestamp":"2016-10-13T18:38:20.226Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T06:15:55.578Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T06:15:55.952Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T06:15:55.584Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T06:15:55.952Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T06:15:55.952Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T06:19:22.047Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T06:19:22.055Z"}
+{"level":"info","message":"User Id: 3, AnudeepRentala1 link, Id: username link clicked http://localhost:4000/user/3","timestamp":"2016-10-16T06:27:53.857Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:09:15.259Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:09:16.166Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:09:15.275Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:09:16.166Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:09:16.166Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:09:58.708Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:09:59.271Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:09:58.724Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:09:59.271Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:09:59.271Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:02.540Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:02.552Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T07:13:26.649Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:26.705Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:26.713Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T07:13:27.322Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:27.370Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:27.382Z"}
+{"level":"info","message":"User Id: 3, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T07:13:27.917Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:27.969Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:27.973Z"}
+{"level":"info","message":"User Id: 3, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T07:13:28.787Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:28.831Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:28.835Z"}
+{"level":"info","message":"User Id: 3, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T07:13:29.597Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:29.645Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:29.673Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-16T07:13:33.833Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T07:13:35.370Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:35.398Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:13:35.426Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:27.750Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:27.754Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T07:16:29.674Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:29.722Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:29.730Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T07:16:30.473Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:30.525Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:30.533Z"}
+{"level":"info","message":"User Id: 3, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T07:16:31.124Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:31.176Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:31.188Z"}
+{"level":"info","message":"User Id: 3, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T07:16:31.956Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:32.004Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:32.028Z"}
+{"level":"info","message":"User Id: 3, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T07:16:32.799Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:32.855Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:16:32.871Z"}
+{"level":"info","message":"User Id: 3, Drums - Some drums - total 2 link, Id:  link clicked http://localhost:4000/shopping/product/11","timestamp":"2016-10-16T07:16:39.641Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T07:19:29.255Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T07:19:32.214Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:19:44.457Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:19:44.461Z"}
+{"level":"info","message":"User Id: 3, Dr Dre Beats Headphones - Dr Dre Beats Headphones - Over ear piece - Bluetooth headphones link, Id:  link clicked http://localhost:4000/shopping/product/6","timestamp":"2016-10-16T07:19:53.312Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=6 form method","timestamp":"2016-10-16T07:20:04.715Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T07:22:23.178Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:22:23.254Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:22:23.258Z"}
+{"level":"info","message":"User Id: 3, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T07:22:37.565Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:27:06.577Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:27:06.980Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:27:06.577Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:27:06.980Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:27:06.980Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:28:28.709Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:28:28.721Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T07:28:29.564Z"}
+{"level":"info","message":"User Id: 3, MotoG4 - 2gb ram 16gb storage  link, Id:  link clicked http://localhost:4000/shopping/product/8","timestamp":"2016-10-16T07:28:38.058Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:33:57.274Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:33:57.758Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:33:57.290Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:33:57.758Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:33:57.758Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=8 form method","timestamp":"2016-10-16T07:34:04.946Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:35:36.184Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:35:36.741Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:35:36.192Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:35:36.741Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:35:36.741Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:38:52.378Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:38:53.752Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:38:52.393Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:38:53.752Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:38:53.752Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:38:54.174Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:38:54.205Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:39:26.389Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:39:26.393Z"}
+{"level":"info","message":"User Id: 3, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T07:39:27.974Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:43:16.895Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:43:16.907Z"}
+{"level":"info","message":"User Id: 3, addidas shorts - nba basketball shorts link, Id:  link clicked http://localhost:4000/shopping/product/2","timestamp":"2016-10-16T07:43:21.966Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=2 form method","timestamp":"2016-10-16T07:43:26.292Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:44:03.378Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:44:14.934Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:44:03.382Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:44:14.934Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:44:14.934Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:46:30.512Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:46:31.012Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:46:30.528Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:46:31.012Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:46:31.012Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:46:53.569Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:46:53.577Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:47:26.869Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:47:26.885Z"}
+{"level":"info","message":"User Id: 3, addidas shorts - nba basketball shorts link, Id:  link clicked http://localhost:4000/shopping/product/2","timestamp":"2016-10-16T07:47:31.535Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T07:48:53.214Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T07:48:55.478Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:48:55.518Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:48:55.534Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-16T07:49:00.682Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T07:49:01.987Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:49:02.011Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:49:02.023Z"}
+{"level":"info","message":"User Id: 3, addidas shorts - nba basketball shorts link, Id:  link clicked http://localhost:4000/shopping/product/2","timestamp":"2016-10-16T07:49:06.992Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=2 form method","timestamp":"2016-10-16T07:49:11.626Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:49:38.098Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:49:38.600Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:49:38.110Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:49:38.600Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:49:38.600Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:51:04.496Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:51:12.179Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:51:04.500Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:51:12.179Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:51:12.179Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:52:09.248Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:52:17.050Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:52:09.264Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:52:17.050Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:52:17.066Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:13.535Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:14.584Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:13.551Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:14.584Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:53:14.584Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:29.058Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:29.351Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:29.058Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:29.351Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:53:29.351Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:43.914Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T07:53:44.370Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:43.914Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T07:53:44.370Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T07:53:44.370Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:55:31.189Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:55:31.205Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-16T07:56:19.305Z"}
+{"level":"info","message":"User Id: 3, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T07:56:21.809Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:56:25.564Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:56:25.572Z"}
+{"level":"info","message":"User Id: 3, AnudeepRentala1 link, Id: username link clicked http://localhost:4000/user/3","timestamp":"2016-10-16T07:56:26.245Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:58:07.247Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T07:58:07.255Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T07:58:46.077Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T07:58:46.081Z"}
+{"level":"info","message":"User Id: 20, Bose Headphones - asdas link, Id:  link clicked http://localhost:4000/shopping/product/19","timestamp":"2016-10-16T07:58:53.563Z"}
+{"level":"info","message":"User Id: 20,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=19 form method","timestamp":"2016-10-16T07:58:58.444Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:05:35.106Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:05:35.568Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:05:35.115Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:05:35.568Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T08:05:35.568Z"}
+{"level":"info","message":"User Id: 20, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T08:07:03.383Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:03.426Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:03.434Z"}
+{"level":"info","message":"User Id: 20, sd - asdasdsa link, Id:  link clicked http://localhost:4000/shopping/product/12","timestamp":"2016-10-16T08:07:05.617Z"}
+{"level":"info","message":"User Id: 20, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T08:07:14.498Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:14.538Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:14.546Z"}
+{"level":"info","message":"User Id: 20, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T08:07:23.233Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:23.269Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:23.277Z"}
+{"level":"info","message":"User Id: 20, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T08:07:24.297Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:24.309Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:24.317Z"}
+{"level":"info","message":"User Id: 20, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T08:07:26.554Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:26.570Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:07:26.574Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:08:08.567Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:08:08.571Z"}
+{"level":"info","message":"User Id: 20, Logitech mouse keyboard - asdasdas link, Id:  link clicked http://localhost:4000/shopping/product/20","timestamp":"2016-10-16T08:08:19.688Z"}
+{"level":"info","message":"User Id: 20, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T08:08:34.396Z"}
+{"level":"info","message":"User Id: 20, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T08:08:37.004Z"}
+{"level":"info","message":"User Id: 20,  link, Id:  link clicked undefined","timestamp":"2016-10-16T08:08:37.992Z"}
+{"level":"info","message":"User Id: 20, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T08:08:41.661Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:40.912Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:40.916Z"}
+{"level":"info","message":"User Id: 20, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T08:09:43.902Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:43.946Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:43.950Z"}
+{"level":"info","message":"User Id: 20, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T08:09:45.347Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:45.363Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:45.367Z"}
+{"level":"info","message":"User Id: 20,  link, Id:  link clicked undefined","timestamp":"2016-10-16T08:09:47.360Z"}
+{"level":"info","message":"User Id: 20, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T08:09:49.922Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:53.238Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:53.246Z"}
+{"level":"info","message":"User Id: 20, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T08:09:55.234Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:55.266Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:55.270Z"}
+{"level":"info","message":"User Id: 20, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T08:09:56.141Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:56.153Z"}
+{"level":"info","message":"User Id: 20, pageload, get products called","timestamp":"2016-10-16T08:09:56.161Z"}
+{"level":"info","message":"User Id: 20, Lenovo X7 Laptop - 4 GB Ram - Intel Processor, Old - Used for 4 years link, Id:  link clicked http://localhost:4000/shopping/product/5","timestamp":"2016-10-16T08:09:59.257Z"}
+{"level":"info","message":"User Id: 20,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=5 form method","timestamp":"2016-10-16T08:10:05.371Z"}
+{"level":"info","message":"User Id: 20,  link, Id:  link clicked undefined","timestamp":"2016-10-16T08:10:51.288Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:12:58.812Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:12:59.724Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:12:58.832Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:12:59.724Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T08:12:59.724Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:13:15.911Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:13:15.919Z"}
+{"level":"info","message":"User Id: 3, Logitech mouse keyboard - asdasdas link, Id:  link clicked http://localhost:4000/shopping/product/20","timestamp":"2016-10-16T08:13:23.399Z"}
+{"level":"info","message":"User Id: 3,  link, Id:  link clicked undefined","timestamp":"2016-10-16T08:13:30.893Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart form method","timestamp":"2016-10-16T08:13:35.682Z"}
+{"level":"info","message":"User Id: 3, Sell link, Id:  link clicked http://localhost:4000/sell","timestamp":"2016-10-16T08:14:23.421Z"}
+{"level":"info","message":"User Id: 3, Sell link, Id:  link clicked http://localhost:4000/sell","timestamp":"2016-10-16T08:14:30.502Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:27:48.373Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T08:27:48.873Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:27:48.388Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T08:27:48.873Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T08:27:48.873Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=32 form method","timestamp":"2016-10-16T08:28:56.427Z"}
+{"level":"info","message":"User Id: 3, Samsung Galaxy 7 link, Id:  link clicked http://localhost:4000/shopping/product/32","timestamp":"2016-10-16T08:29:30.665Z"}
+{"level":"info","message":"User Id: 3,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T08:36:53.517Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T08:36:59.124Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:36:59.164Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:36:59.172Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:37:02.140Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:37:02.144Z"}
+{"level":"info","message":"User Id: 3, dell laptop - BRAND NEW LAPTOP link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T08:37:28.103Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T08:38:29.519Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T08:38:34.285Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:38:34.321Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T08:38:34.329Z"}
+{"level":"info","message":"User Id: 3, dell laptop - BRAND NEW LAPTOP link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T08:38:37.039Z"}
+{"level":"info","message":"User Id: 3, dell laptop link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T08:40:14.433Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:26:28.608Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:26:28.923Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:26:28.616Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:26:28.923Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:26:28.923Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:26:48.221Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:26:48.229Z"}
+{"level":"info","message":"User Id: 3, Iphone 6s - Ued iphone working condn link, Id:  link clicked http://localhost:4000/shopping/product/28","timestamp":"2016-10-16T17:26:55.063Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T17:31:21.847Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T17:31:31.213Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:32:03.990Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:32:12.137Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:32:04.006Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:32:12.137Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:32:12.137Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:34:44.456Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:34:45.276Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:34:44.468Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:34:45.276Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:34:45.276Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:35:00.978Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:35:02.539Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:35:00.986Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:35:02.539Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:35:02.539Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:38:32.654Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:38:33.154Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:38:32.669Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:38:33.154Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:38:33.154Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T17:38:41.516Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T17:39:06.075Z"}
+{"level":"info","message":"User Id: 3, Remove link, Id:  link clicked http://localhost:4000/","timestamp":"2016-10-16T17:39:14.714Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=28 form method","timestamp":"2016-10-16T17:39:24.012Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:40:55.871Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T17:40:56.355Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:40:55.871Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T17:40:56.355Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-16T17:40:56.355Z"}
+{"level":"info","message":"User Id: 3, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T17:41:43.949Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:41:58.073Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:41:58.081Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:45:57.978Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:45:57.994Z"}
+{"level":"info","message":"User Id: 3, dell laptop - BRAND NEW LAPTOP link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T17:45:59.781Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:46:03.940Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:46:03.956Z"}
+{"level":"info","message":"User Id: 3, Nike Baseball Bat - Nike Baseball Bat - Latest link, Id:  link clicked http://localhost:4000/shopping/product/26","timestamp":"2016-10-16T17:46:08.899Z"}
+{"level":"info","message":"User Id: 3,  button, Id: bid-submit form action http://localhost:4000/#/confirmation form method","timestamp":"2016-10-16T17:46:19.277Z"}
+{"level":"info","message":"User Id: 3, Nike Baseball Bat - Nike Baseball Bat - Latest link, Id:  link clicked http://localhost:4000/shopping/product/26","timestamp":"2016-10-16T17:46:23.139Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:03.759Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:03.767Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:07.807Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:07.819Z"}
+{"level":"info","message":"User Id: 3, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-16T17:47:12.007Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:26.287Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:47:26.291Z"}
+{"level":"info","message":"User Id: 3, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T17:48:23.918Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:23.970Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:23.978Z"}
+{"level":"info","message":"User Id: 3, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T17:48:25.951Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:25.967Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:25.975Z"}
+{"level":"info","message":"User Id: 3, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T17:48:26.664Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:26.680Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:26.684Z"}
+{"level":"info","message":"User Id: 3, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T17:48:27.583Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:27.603Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T17:48:27.611Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:05:00.368Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:05:00.368Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:05:08.198Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:05:08.202Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:06:32.664Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:06:32.679Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:12:29.772Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:12:29.772Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:13:32.464Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:13:32.464Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:13:49.558Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:13:49.560Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:15:17.091Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:15:17.107Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:15:21.189Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:15:21.193Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:18:34.665Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:18:34.665Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:18:39.725Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:18:39.729Z"}
+{"level":"info","message":"User Id: 3, dell laptop - BRAND NEW LAPTOP link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T19:18:44.896Z"}
+{"level":"info","message":"User Id: 3,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=31 form method","timestamp":"2016-10-16T19:18:49.028Z"}
+{"level":"info","message":"User Id: 3, dell laptop link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T19:19:12.883Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:19:17.042Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-16T19:19:17.044Z"}
+{"level":"info","message":"User Id: 3, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T19:23:17.844Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:47:18.808Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:47:18.808Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:53:53.933Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:53:53.933Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:55:16.128Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:55:16.128Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:56:34.871Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:56:34.887Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T19:57:33.476Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T19:57:33.491Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:57:41.232Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:57:41.237Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:57:44.919Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:57:44.922Z"}
+{"level":"info","message":"User Id: undefined, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T19:58:02.117Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:58:02.129Z"}
+{"level":"info","message":"User Id: undefined, pageload, get products called","timestamp":"2016-10-16T19:58:02.132Z"}
+{"level":"info","message":"User Id: undefined, moto g4 - asdasd asfas link, Id:  link clicked http://localhost:4000/shopping/product/21","timestamp":"2016-10-16T19:58:05.515Z"}
+{"level":"info","message":"User Id: undefined,  link, Id:  link clicked undefined","timestamp":"2016-10-16T19:58:12.151Z"}
+{"level":"info","message":"User Id: undefined, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T19:58:14.268Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:14:46.499Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:14:46.499Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:15:28.639Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:15:28.641Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:16:45.780Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:16:45.782Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:17:15.847Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:17:15.847Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:17:38.321Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:17:38.321Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:18:14.215Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:18:14.218Z"}
+{"level":"info","message":"User Id: 24, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T20:18:52.847Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:18:59.395Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:18:59.397Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:19:51.944Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:19:51.947Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:20:32.422Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:20:32.424Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:20:41.256Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:20:41.307Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:21:12.952Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:21:12.952Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:28:43.528Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:28:43.528Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:28:50.770Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:28:50.774Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:29:48.149Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:29:48.152Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:30:33.127Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:30:33.143Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:30:36.826Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:30:36.833Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:31:29.057Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:31:29.060Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:31:44.972Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:31:44.974Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:33:09.731Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:33:09.734Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:33:24.534Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:33:24.536Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:35:30.243Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:35:30.243Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:35:36.573Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:35:36.580Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:35:48.486Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:35:48.488Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:36:49.916Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:36:49.919Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:37:00.175Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:37:00.178Z"}
+{"level":"info","message":"User Id: 24,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T20:37:06.213Z"}
+{"level":"info","message":"User Id: 24,  link, Id:  link clicked undefined","timestamp":"2016-10-16T20:37:08.399Z"}
+{"level":"info","message":"User Id: 24, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-16T20:37:11.277Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:37:16.431Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:37:16.435Z"}
+{"level":"info","message":"User Id: 24, fnamelname1 link, Id: username link clicked http://localhost:4000/user/24","timestamp":"2016-10-16T20:37:46.793Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T20:39:02.844Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T20:39:02.844Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:39:52.677Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:39:52.681Z"}
+{"level":"info","message":"User Id: 24, fnamelname1 link, Id: username link clicked http://localhost:4000/user/24","timestamp":"2016-10-16T20:39:56.561Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:39:59.949Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:39:59.953Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:40:02.918Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:40:02.920Z"}
+{"level":"info","message":"User Id: 24, fnamelname1 link, Id: username link clicked http://localhost:4000/user/24","timestamp":"2016-10-16T20:41:34.152Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:37.134Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:37.137Z"}
+{"level":"info","message":"User Id: 24,  link, Id:  link clicked undefined","timestamp":"2016-10-16T20:41:38.581Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:41:41.081Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:41.089Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:41.090Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:41:42.173Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:42.181Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:42.183Z"}
+{"level":"info","message":"User Id: 24, sad - asdasd link, Id:  link clicked http://localhost:4000/shopping/product/15","timestamp":"2016-10-16T20:41:53.813Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:55.849Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:41:55.851Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:42:59.405Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:42:59.417Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:42:59.419Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:43:00.031Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:00.038Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:00.040Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:43:00.629Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:00.635Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:00.637Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:43:01.169Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:01.177Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:01.179Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:43:01.611Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:01.617Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:01.618Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:43:02.470Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:02.475Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:02.477Z"}
+{"level":"info","message":"User Id: 24, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T20:43:02.887Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:02.895Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:02.897Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:43:03.838Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:03.843Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:03.845Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:43:04.410Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:04.426Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:04.429Z"}
+{"level":"info","message":"User Id: 24, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T20:43:04.882Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:04.889Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:04.891Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:43:05.764Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:05.769Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:05.771Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:43:06.489Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:06.497Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:06.499Z"}
+{"level":"info","message":"User Id: 24, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-16T20:43:13.577Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:43.187Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:43.190Z"}
+{"level":"info","message":"User Id: 24,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T20:43:48.018Z"}
+{"level":"info","message":"User Id: 24,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T20:43:49.782Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:43:53.263Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:53.268Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:53.271Z"}
+{"level":"info","message":"User Id: 24, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T20:43:54.588Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:54.594Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:43:54.596Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:46.057Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:46.059Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:44:47.740Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:47.754Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:47.757Z"}
+{"level":"info","message":"User Id: 24,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T20:44:48.697Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:48.703Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:48.705Z"}
+{"level":"info","message":"User Id: 24,  link, Id:  link clicked undefined","timestamp":"2016-10-16T20:44:50.512Z"}
+{"level":"info","message":"User Id: 24,  link, Id: gh-logo link clicked undefined","timestamp":"2016-10-16T20:44:51.829Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:51.836Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:51.840Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:44:53.122Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:53.128Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:53.129Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:44:53.802Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:53.809Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:53.810Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:44:54.270Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:54.277Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:54.279Z"}
+{"level":"info","message":"User Id: 24, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T20:44:54.687Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:54.691Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:44:54.695Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:45:09.188Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:09.194Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:09.196Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:45:09.742Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:09.747Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:09.749Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:10.272Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:10.276Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:10.280Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:45:10.882Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:10.889Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:10.891Z"}
+{"level":"info","message":"User Id: 24, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T20:45:11.692Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:11.698Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:11.701Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:45:12.567Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:12.575Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:12.577Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:13.065Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:13.072Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:13.076Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:45:13.951Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:13.957Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:13.959Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:45:15.517Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:15.521Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:15.525Z"}
+{"level":"info","message":"User Id: 24, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T20:45:16.007Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:16.011Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:16.014Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:16.792Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:16.796Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:16.798Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:45:17.370Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:17.378Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:17.380Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:18.157Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:18.162Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:18.165Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:45:18.903Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:18.905Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:18.909Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:19.741Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:19.746Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:19.749Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:45:20.463Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:20.469Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:20.470Z"}
+{"level":"info","message":"User Id: 24, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T20:45:21.400Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:21.404Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:21.407Z"}
+{"level":"info","message":"User Id: 24, fnamelname1 link, Id: username link clicked http://localhost:4000/user/24","timestamp":"2016-10-16T20:45:22.358Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:33.997Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:33.999Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:45:36.874Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:36.886Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:36.888Z"}
+{"level":"info","message":"User Id: 24, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-16T20:45:37.721Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:37.726Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:37.728Z"}
+{"level":"info","message":"User Id: 24, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-16T20:45:38.458Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:38.463Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:38.465Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:45:39.761Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:39.766Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:45:39.769Z"}
+{"level":"info","message":"User Id: 24,  link, Id:  link clicked undefined","timestamp":"2016-10-16T20:46:08.171Z"}
+{"level":"info","message":"User Id: 24, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-16T20:46:11.227Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:55:48.208Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:55:48.210Z"}
+{"level":"info","message":"User Id: 24,  link, Id:  link clicked undefined","timestamp":"2016-10-16T20:56:01.497Z"}
+{"level":"info","message":"User Id: 24, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-16T20:56:02.919Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:02.925Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:02.927Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:56:03.672Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:03.679Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:03.681Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T20:56:04.799Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:04.806Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:04.808Z"}
+{"level":"info","message":"User Id: 24, Today link, Id:  link clicked http://localhost:4000/#/","timestamp":"2016-10-16T20:56:07.012Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:07.016Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:07.018Z"}
+{"level":"info","message":"User Id: 24, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-16T20:56:13.075Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:13.080Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:13.081Z"}
+{"level":"info","message":"User Id: 24, Sell link, Id:  link clicked http://localhost:4000/sell","timestamp":"2016-10-16T20:56:13.910Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:19.464Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T20:56:19.466Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:11:56.480Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:11:56.482Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:12:14.597Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:12:14.599Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:12:26.919Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:12:26.922Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:23:38.048Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:23:38.051Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:23:46.279Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:23:46.283Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:26:18.123Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:26:18.126Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:29:53.047Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:29:53.050Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:37:05.456Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:37:05.461Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:37:10.613Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:37:10.617Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:37:47.540Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:37:47.540Z"}
+{"level":"info","message":"User Id: 24, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-16T21:37:52.637Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:37:52.668Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:37:52.668Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:38:33.609Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:38:33.624Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:38:40.150Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:38:40.155Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:38:58.367Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:38:58.367Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:39:23.041Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:39:27.139Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:40:22.299Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:40:22.299Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:40:26.002Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:40:26.008Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:40:31.389Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:40:31.389Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:40:46.327Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:40:46.327Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:40:49.464Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:40:49.468Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:41:40.161Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:41:40.176Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:41:53.965Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:41:53.965Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:41:57.938Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:41:57.953Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:42:57.863Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:42:57.863Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:43:04.085Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:43:04.088Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:54:28.036Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:54:28.038Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:54:46.087Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:54:46.096Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:55:16.168Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:55:16.170Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:55:19.837Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:55:19.842Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:55:33.965Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:55:33.968Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:55:37.383Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:55:37.387Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T21:56:00.157Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T21:56:00.159Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:56:29.486Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T21:56:30.574Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T22:09:27.815Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T22:09:27.819Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:09:34.887Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:09:34.893Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T22:13:02.111Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T22:13:02.114Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:13:24.754Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:13:24.759Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T22:14:30.803Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T22:14:30.806Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:14:37.387Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T22:14:37.394Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T22:36:03.304Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T22:36:03.304Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T23:24:21.629Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-16T23:24:21.659Z"}
+{"level":"info","message":"User Id: 24, dell laptop - BRAND NEW LAPTOP link, Id:  link clicked http://localhost:4000/shopping/product/31","timestamp":"2016-10-16T23:24:34.238Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:26:58.710Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:26:58.728Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:27:15.900Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:27:15.912Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:27:43.552Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:27:43.565Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:40:13.656Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:40:13.665Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:42:26.073Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:42:26.083Z"}
+{"level":"info","message":"User Id: 24, fnamelname1 link, Id: username link clicked http://localhost:4000/user/24","timestamp":"2016-10-16T23:42:34.653Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-16T23:58:29.421Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-16T23:58:29.433Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T02:34:29.688Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T02:34:29.697Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T02:55:03.915Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T02:55:03.923Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T03:14:40.221Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T03:14:40.238Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T03:29:32.680Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T03:29:32.742Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T03:45:54.927Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T03:45:54.936Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:29:56.472Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:29:56.474Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-17T05:29:57.877Z"}
+{"level":"info","message":"User Id: 3, pageload, get products called","timestamp":"2016-10-17T05:29:57.881Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-17T05:30:03.561Z"}
+{"level":"info","message":"User Id: 24, pageload, get products called","timestamp":"2016-10-17T05:30:03.564Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:32.883Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:32.885Z"}
+{"level":"info","message":"User Id: 25, Fashion link, Id:  link clicked http://localhost:4000/#/shopping/category/Fashion","timestamp":"2016-10-17T05:31:43.823Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:43.833Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:43.838Z"}
+{"level":"info","message":"User Id: 25, Electronics link, Id:  link clicked http://localhost:4000/#/shopping/category/Electronics","timestamp":"2016-10-17T05:31:45.170Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:45.176Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:45.178Z"}
+{"level":"info","message":"User Id: 25, Dell Inspirion 9 Laptop - 8gb Ram - Intel Processor - Powerfull battery link, Id:  link clicked http://localhost:4000/shopping/product/4","timestamp":"2016-10-17T05:31:56.910Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:59.522Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:31:59.524Z"}
+{"level":"info","message":"User Id: 25, Dr Dre Beats Headphones - Dr Dre Beats Headphones - Over ear piece - Bluetooth headphones link, Id:  link clicked http://localhost:4000/shopping/product/6","timestamp":"2016-10-17T05:32:02.199Z"}
+{"level":"info","message":"User Id: 25,  button, Id: checkoutbtn form action http://localhost:4000/#/cart?m=6 form method","timestamp":"2016-10-17T05:32:21.611Z"}
+{"level":"info","message":"User Id: 25,  link, Id:  link clicked undefined","timestamp":"2016-10-17T05:33:34.796Z"}
+{"level":"info","message":"User Id: 25, My eBay link, Id:  link clicked http://localhost:4000/history","timestamp":"2016-10-17T05:33:38.378Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:34:03.493Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:34:03.494Z"}
+{"level":"info","message":"User Id: 25, Nike Baseball Bat - Nike Baseball Bat - Latest link, Id:  link clicked http://localhost:4000/shopping/product/26","timestamp":"2016-10-17T05:34:06.321Z"}
+{"level":"info","message":"User Id: 25, AnudeepRentala1 link, Id: username link clicked http://localhost:4000/user/25","timestamp":"2016-10-17T05:34:34.214Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:37.742Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:37.745Z"}
+{"level":"info","message":"User Id: 25, Sporting Goods link, Id:  link clicked http://localhost:4000/#/shopping/category/SportingGoods","timestamp":"2016-10-17T05:37:38.682Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:38.697Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:38.702Z"}
+{"level":"info","message":"User Id: 25, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-17T05:37:39.148Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:39.154Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:39.156Z"}
+{"level":"info","message":"User Id: 25,  link, Id:  link clicked undefined","timestamp":"2016-10-17T05:37:47.896Z"}
+{"level":"info","message":"User Id: 25, AnudeepRentala1 link, Id: username link clicked http://localhost:4000/user/25","timestamp":"2016-10-17T05:37:49.169Z"}
+{"level":"info","message":"User Id: 25, Toys link, Id:  link clicked http://localhost:4000/#/shopping/category/Toys","timestamp":"2016-10-17T05:37:53.327Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:53.341Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:53.343Z"}
+{"level":"info","message":"User Id: 25, Music link, Id:  link clicked http://localhost:4000/#/shopping/category/Music","timestamp":"2016-10-17T05:37:54.325Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:54.330Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:37:54.333Z"}
+{"level":"info","message":"User Id: 25, Sell link, Id:  link clicked http://localhost:4000/sell","timestamp":"2016-10-17T05:38:00.466Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:38:02.530Z"}
+{"level":"info","message":"User Id: 25, pageload, get products called","timestamp":"2016-10-17T05:38:02.532Z"}
+{"level":"info","message":"User Id: 25, Sign Out link, Id:  link clicked http://localhost:4000/auth/signout","timestamp":"2016-10-17T05:38:04.050Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:43:53.497Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:43:53.500Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:44:37.144Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:44:37.147Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:45:02.044Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:45:02.047Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:50:16.206Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:50:16.209Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:50:35.050Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:50:35.053Z"}
+{"level":"info","message":"Hello world","timestamp":"2016-10-17T05:51:10.443Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-17T05:51:10.446Z"}
