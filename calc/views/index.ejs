@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app="calculator">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<script src="/javascripts/angular.js">></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body ng-controller="calcController">
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="alert alert-info text-right">
+            <span data-ng-repeat="param in params track by $index">{{param}} {{operators[$index]}} </span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="input(1)" role="button">1</a>
+            <a href="#" class="btn btn-default" ng-click="input(2)" role="button">2</a>
+            <a href="#" class="btn btn-default" ng-click="input(3)" role="button">3</a>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="input(4)" role="button">4</a>
+            <a href="#" class="btn btn-default" ng-click="input(5)" role="button">5</a>
+            <a href="#" class="btn btn-default" ng-click="input(6)" role="button">6</a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="input(7)" role="button">7</a>
+            <a href="#" class="btn btn-default" ng-click="input(8)" role="button">8</a>
+            <a href="#" class="btn btn-default" ng-click="input(9)" role="button">9</a>
+        </div>
+    </div>
+</div>
+<div class="row ">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="operation('add')" role="button"><span class="glyphicon glyphicon-plus"></span></a>
+            <a href="#" class="btn btn-default" ng-click="input(0)" role="button">0</a>
+            <a href="#" class="btn btn-default" ng-click="operation('minus')" role="button"><span class="glyphicon glyphicon-minus"></span></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="operation('times')" role="button">X</a>
+            <a href="#" class="btn btn-default" ng-click="clear()" role="button">CLR</a>
+            <a href="#" class="btn btn-default" ng-click="operation('divide')" role="button">/</a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-3 col-md-6">
+        <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+            <a href="#" class="btn btn-default" ng-click="evaluate()" role="button">=</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="/javascripts/calculator.js"></script>
+</html>
