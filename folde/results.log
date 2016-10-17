@@ -1,0 +1,3 @@
+{"level":"info","message":"Hello world","timestamp":"2016-10-13T16:39:41.081Z"}
+{"level":"warn","message":"Warning message","timestamp":"2016-10-13T16:39:41.089Z"}
+{"level":"debug","message":"Debugging info","timestamp":"2016-10-13T16:39:41.089Z"}
