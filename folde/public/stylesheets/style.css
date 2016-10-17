@@ -1,0 +1,31 @@
+
+body {
+  padding-top: 90px;
+  background: url(https://securepics.ebaystatic.com/aw/pics/cmp/ds3/imgbg.jpg) repeat 0 0 #f8f8f8;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+.grey{
+  color: #767676;
+}
+.btn{
+  background-color: #00509d;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  height: auto;
+  font-weight: bold;
+  padding: 14px 0;
+  border-color: #1CB94A;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: #00509d;
+}
+.shadow{
+  box-shadow:0 8px 8px rgba(0, 0, 0, 0.06);
+}

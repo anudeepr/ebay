@@ -1,0 +1,68 @@
+<style>
+    .product{
+        padding:20px;
+    }
+    .prodlink:visited{
+        color:#6a29b9;
+    }
+    .prodlink:focus,.prodlink:focus{
+        color:#0654ba;
+    }
+    .prodlink{
+        font-size:20px;
+    }
+    .prodImg{
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 3px;
+        border: 1px;
+        padding: 15px;
+    }
+
+</style>
+<div class="container">
+    <div ng-show="hasProducts()">
+        <h3>Category: {{category}}</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row navbar navbar-default" ng-repeat="product in products track by $index">
+                    <div class="product">
+                        <div class="col-md-4">
+                            <img class="prodImg" src="{{product.url == undefined ? 'http://news.nicronon.com/assets/backgrounds/photo-default-th.png': product.url}}">
+                        </div>
+                        <div class="col-md-6">
+                            <a href="http://localhost:4000/shopping/product/{{product.productid}}" class="prodlink">{{product.name}} - {{product.description}}</a>
+                            </br>
+                            <div>
+                                <strong style="font-size: 20px ;">${{product.price}}</strong>
+                            </div>
+                            </br>
+                            <div>
+                                <p class="grey" ng-show="product.forAuction">Bid Now !</p>
+                                <p class="grey" ng-show="!product.forAuction">Buy Now !</p>
+                            </div>
+
+                            <div>
+                                <span class="grey" ng-show="product.delprice == 0">Free Shipping !</span>
+                                <span class="grey" ng-show="!product.delprice == 0">Delivery : ${{product.delprice}}</span>
+                            </div>
+                            </br>
+                            <div>
+                                <span class="grey" ng-show="product.forAuction">{{product.expiry}}</span>
+                            </div>
+                            </br>
+                        </div>
+
+                    </div>
+
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-show="!hasProducts()">
+        <h3> No Products Available !</h3>
+    </div>
+
+</div>

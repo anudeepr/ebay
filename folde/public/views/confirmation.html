@@ -1,0 +1,191 @@
+<style>
+    .product{
+        padding:20px;
+    }
+    .prodlink:visited{
+        color:#6a29b9;
+    }
+    .prodlink:focus,.prodlink:focus{
+        color:#0654ba;
+    }
+    .prodlink{
+        font-size:20px;
+    }
+    .sellerBar{
+        background-color: #eee ;
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+    .cart{
+        background-color: #fcfcfc ;
+    }
+    .prodImg{
+        max-width: 144px;
+        max-height: 144px;
+        border-radius: 3px;
+        border: 1px;
+    }
+    .summary{
+        text-align: center;
+    }
+</style>
+<div class="container" ng-show="bidProduct != undefined">
+    <div class="row">
+        </br>
+        <div class="col-md-offset-2 col-md-8">
+            <div style="border-top: 3px solid #209900;" class="row navbar navbar-default shadow">
+                <div class="row">
+                    <div class="col-md-1 ">
+                        <span style="color: #209900; font-size: 30px; padding:5px;" class="glyphicon glyphicon-ok-sign"></span>
+                    </div>
+                    <div style="padding: 10px;" class="col-md- 8">
+                        Congratulations ! Your bid for
+                        <a href="http://localhost:4000/shopping/product/{{bidProduct.productid}}">{{bidProduct.name + " - " + bidProduct.description}}</a>
+                         has been registerd !
+                    </div>
+                    </br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </br>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-4">
+                <img src="{{bidProduct.url}}">
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group row">
+                            <div class="col-md-5 text-right">
+                                <span class="grey text-right">Item Condition:</span>
+                            </div>
+                            <div class="col-md-7 ">
+                                <label class="col-form-label text-left">{{bidProduct.pcondition}}</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-5 text-right">
+                                <span class="grey text-right">Time Left:</span>
+                            </div>
+                            <div class="col-md-7">
+                                <span class="bidnote">{{bidProduct.expTime}}</span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-5 text-right">
+                                <span class="grey text-right">Your Current Bid:</span>
+                            </div>
+                            <div class="col-md-7">
+                                <span class="bidnote">{{bidProduct.amount}}</span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-5 text-right">
+                                <span class="grey text-right">Latest Bid:</span>
+                            </div>
+                            <div class="col-md-7">
+                                <span class="bidnote">{{bidProduct.price}}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-3">
+            <h4 class="text-center">Improve your chances of winning by increasing your bid.</h4>
+            <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group row">
+                        <div style="padding-top: 5px;" class="col-md-5 text-right">
+                            <span  class="grey text-right">Increase your bid:</span>
+                        </div>
+                        <form action="/shopping/api/placebid"  method="POST" id="placebid">
+                            <div class="col-md-4 ">
+
+                                <input name="bidamount" min="{{bidProduct.price + 1}}" value="{{bidProduct.price + 1}}" class="form-control" type="number" >
+
+                            </div>
+                            <div class="col-md-3 ">
+                                <input name="i" value="{{bidProduct.productid}}" type="hidden" >
+                                <input type="submit" id="bid-submit"
+                                       tabindex="4" class="form-control btn-primary " value="Place Bid"/>
+                            </div>
+                        </form>​
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="container" ng-show="orderedProducts != undefined">
+    <div class="row">
+        <div class="col-md-offset-1 col-md-8">
+            <div style="border-top: 3px solid #209900;" class="row navbar navbar-default shadow">
+                <div class="row">
+                    <div class="col-md-1 ">
+                        <span style="color: #209900; font-size: 30px; padding:5px;" class="glyphicon glyphicon-ok-sign"></span>
+                    </div>
+                    <div style="padding: 10px;" class="col-md- 8">
+                        <span>Congrats ! Your order has been created. Your Order Id is <strong>{{orderid}}</strong></span>
+                    </div>
+                    </br>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-10">
+            <div class="row cart navbar shadow navbar-default" ng-repeat="product in orderedProducts track by $index">
+                <div class="sellerBar">
+                    <span>Seller: </span><a href="{{'/user/'+product.sellerid}}">{{product.sellerid}}</a>
+                </div>
+                <div class=" product">
+                    <div class="col-md-2">
+                        <img class="prodImg" src="{{product.url}}">
+                    </div>
+                    <div class="col-md-7">
+                        <a class="prodlink" href="http://localhost:4000/shopping/product/{{product.productid}}">{{product.name}}</a>
+                        </br> </br>
+                        <div><span>{{product.description}}</span></div>
+                        <div><span>Condition: {{product.pcondition}}</span></div>
+                        <div></div>
+                    </div>
+                    <div class="col-md-2">
+                        <div><span>Quantity: </span><input type="number" max="100" disabled ng-model="product.orderQty" name="quantity" min="1" ></div>
+                        </br> </br>
+                    </div>
+                    <div class="col-md-1">
+                        <div><strong style="font-size: 20px;">{{product.price | currency}}</strong></div>
+                        <div><span>{{product.shippingPrice}}</span></div>
+                    </div>
+                </div>
+
+                <br/>
+            </div>
+        </div>
+    </div>
+
+</div>
+

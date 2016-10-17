@@ -1,0 +1,123 @@
+<style>
+    .product{
+        padding:20px;
+    }
+    .prodlink:visited{
+        color:#6a29b9;
+    }
+    .prodlink:focus,.prodlink:focus{
+        color:#0654ba;
+    }
+    .prodlink{
+        font-size:20px;
+    }
+    .sellerBar{
+        background-color: #eee ;
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+    .cart{
+        background-color: #fcfcfc ;
+    }
+    .prodImg{
+        max-width: 144px;
+        max-height: 144px;
+        border-radius: 3px;
+        border: 1px;
+    }
+    .summary{
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div ng-show="hasItemsInCart()">
+        <h1>Your eBay Shopping Cart</h1>
+        <div class="row">
+            </br>
+            <div ng-show="addedProduct != undefined" class="col-md-offset-1 col-md-8">
+                <div style="border-top: 3px solid #209900;" class="row navbar navbar-default shadow">
+                    <div class="row">
+                        <div class="col-md-1 ">
+                            <span style="color: #209900; font-size: 30px; padding:5px;" class="glyphicon glyphicon-ok-sign"></span>
+                        </div>
+                        <div style="padding: 10px;" class="col-md- 8">
+                            <a href="http://localhost:4000/shopping/product/{{addedProduct.productid}}">{{addedProduct.name + " - " + addedProduct.description}}</a>
+                            was just added to your cart.
+                        </div>
+                        </br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </br>
+        <div class="row">
+            <div class="col-md-10">
+                <div class="row cart navbar shadow navbar-default" ng-repeat="product in cart.products track by $index">
+                    <div class="sellerBar">
+                        <span>Seller: </span><a href="{{product.seller.url}}">{{product.sellerid}}</a>
+                    </div>
+                    <div class=" product">
+                        <div class="col-md-2">
+                            <img class="prodImg" src="{{product.url}}">
+                        </div>
+                        <div class="col-md-7">
+                            <a class="prodlink" href="http://localhost:4000/shopping/product/{{product.productid}}">{{product.name}}</a>
+                            </br> </br>
+                            <div><span>{{product.description}}</span></div>
+                            <div><span>Condition: {{product.pcondition}}</span></div>
+                            <div></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div><span>Quantity: </span><input type="number" disabled ng-model="product.quantity" name="quantity" min="1" max="5"></div>
+                            </br> </br>
+                            <div><a href ng:click="removeProduct(product.productid)" >Remove</a></div>
+                        </div>
+                        <div class="col-md-1">
+                            <div><strong style="font-size: 20px;">{{product.price | currency}}</strong></div>
+                            <div><span>{{product.shippingPrice}}</span></div>
+                        </div>
+                    </div>
+
+                    <br/>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="col-md-12">
+                    <div class="row navbar navbar-default shadow">
+                        </br>
+                        <div class="summary">
+                            <strong >Cart Summary</strong>
+                        </div>
+
+                        <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                        <div class="summary">
+                            <strong >Total: {{cart.total | currency}}</strong>
+                        </div>
+                        </br>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input type="button" onclick="location.href='/shopping/shipping'" id="checkoutbtn" tabindex="4" class="form-control btn-primary checkout" value="Checkout">
+                            </div>
+                        </div>
+
+
+                        </br>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <p style="color: #666; font-size: 10px">Covers your purchase price plus original shipping on virtually all items.
+                                    Get the item you ordered or get your money back</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div ng-show="!hasItemsInCart()">No Items In Cart</div>
+        </div>
+    </div>
+    <div ng-show="!hasItemsInCart()">
+        <h1>Your cart is empty !</h1>
+    </div>
+</div>

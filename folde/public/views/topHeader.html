@@ -1,0 +1,54 @@
+<style>
+    .topnavbar-nav > li > a, .navbar-brand {
+        padding-top:5px !important; padding-bottom:0 !important;
+        height: 30px;
+        font-size: 12px;
+    }
+    .topnavbar {min-height:35px !important; box-shadow:0 8px 8px rgba(0, 0, 0, 0.06);}
+    .topnavanchor{
+        color:#333;
+    }
+    .topnavanchor:active, .topnavbaranchor:hover{
+        color:#337ab7;
+    }
+
+</style>
+
+<div class="topnavbar navbar navbar-default navbar-fixed-top">
+    <!--this is one of those hack . . . .-->
+    <div style="padding: 5px;"><span></span></div>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar">sdf</span>
+                <span class="icon-bar">sdf</span>
+                <span class="icon-bar">sdf</span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav topnavbar-nav navbar-nav navbar-left">
+                <li><span>Hi ! <a id="username"></a></span>
+                </li>
+                <li><span><a class="topnavanchor" href="#">Help and Contact</a></span></li>
+                <li><span><a class="topnavanchor" href="/sell">Sell</a></span></li>
+                </li>
+            </ul>
+            <ul class="nav topnavbar-nav navbar-nav navbar-right">
+                <li><span>
+                    <form action="/logout" method="post">
+                        <a class="topnavanchor" href="/auth/signout">Sign Out</a>
+                    </form>
+
+                </span></li>
+                <li><span><a class="topnavanchor" href="/history">My eBay</a></span></li>
+                <li><span class="glyphicon glyphicon-comment"></span></li>
+
+                <li><span><a href="/#/cart" ><span class="glyphicon glyphicon-shopping-cart"></span></a></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>
