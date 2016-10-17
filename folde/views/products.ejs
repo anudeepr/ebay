@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html ng-app="ebayApp">
+<head>
+    <title><%= product.name %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/css/bootstrap.css"/>
+    <script src="/javascripts/angular.js"></script>
+    <script src="/javascripts/angular-route.js"></script>
+    <script src="/javascripts/common.js"></script>
+    <script src="/javascripts/controllers/homeController.js"></script>
+    <script src="/javascripts/controllers/cartController.js"></script>
+    <script src="/javascripts/common.js"></script>
+    <style>
+        .navbar-default {
+            background-color: #fff;
+        }
+
+        .navbar-default .navbar-nav > li {
+            background-color: #fff;
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #333;
+            border-bottom: 1px solid transparent;
+        }
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus,
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,
+        .navbar-default .navbar-nav > .active > a:focus {
+            background-color: #fff;
+            color: #333;
+            border-bottom: 2px solid #555;
+        }
+        .nav>li{
+            padding-left: 50px;
+        }
+        .searchDropdown{
+            background: transparent;
+            border: 0;
+        }
+        .rating {
+            overflow: hidden;
+        }
+        .rating-input {
+            position: absolute;
+            left: 0;
+            top: -50px;
+        }
+        .rating-star {
+            display: block;
+            float: right;
+            width: 16px;
+            height: 16px;
+            background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+        }
+        .rating-star:hover,
+        .rating-star:hover ~ .rating-star,
+        .rating-input:checked ~ .rating-star {
+            background-position: 0 0;
+        }
+
+        /* Just for the demo */
+        body {
+            margin: 20px;
+        }
+        .sellerBar{
+            background-color: #eee ;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .btn-addToCart {
+            background: #45aad6;
+            outline: none;
+            color: #fff;
+            font-size: 16px;
+            height: auto;
+            padding: 4px;
+            font-weight: 700;
+        }
+        .btn-addToCart:hover,
+        .btn-addToCart:focus {
+            color: #fff;
+            background-color: #2386c0;
+        }
+        .navStat{
+            background-color: #f6f6f6;
+        }
+        .noBtmPad{
+            padding: 20px 20px 0px 20px!important;
+        }
+        .dotted {
+            border-top:1px dotted #333;
+            border-bottom:1px dotted #333;
+            paddinf-top:4px;
+        }
+        .bidnote {
+            font-family: Verdana!important;
+            font-size: 10px;
+            padding-top: 2px;
+        }
+
+        .ctdn {
+            color: #dd1e31;
+            font-size: larger;
+            font-weight: bold;
+            padding: 1px 4px 1px 0;
+        }
+    </style>
+</head>
+<body>
+<div ng-include="'/views/topHeader.html'"></div>
+<div ng-include="'/views/searchBox.html'"></div>
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-4">
+            <img src="<%= product.url %>">
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <h3><%= product.name %></h3>
+                <p>Ship by USPS, 5-7 days for delivery.</p>
+                <div><img src="http://ir.ebaystatic.com/rs/v/tnj4p1myre1mpff12w4j1llndmc.png"
+                          width="11" height="12" class="vi-notify-new-img" alt="Popular">
+                    <span style="font-weight:bold; color:#dd1e31">19 viewed per hour</span>
+                    <span class="rating">
+                        <input type="radio" class="rating-input" checked="checked"
+                               id="rating-input-1-5" name="rating-input-1">
+                        <label for="rating-input-1-5" class="rating-star"></label>
+                        <input type="radio" class="rating-input"
+                               id="rating-input-1-4" name="rating-input-1">
+                        <label for="rating-input-1-4" class="rating-star"></label>
+                        <input type="radio" class="rating-input"
+                               id="rating-input-1-3" name="rating-input-1">
+                        <label for="rating-input-1-3" class="rating-star"></label>
+                        <input type="radio" class="rating-input"
+                               id="rating-input-1-2" name="rating-input-1">
+                        <label for="rating-input-1-2" class="rating-star"></label>
+                        <input type="radio" class="rating-input"
+                               id="rating-input-1-1" name="rating-input-1">
+                        <label for="rating-input-1-1" class="rating-star"></label>
+                    </span>
+                </div>
+
+                <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Item Condition:</span>
+                        </div>
+
+                        <div class="col-md-9 ">
+                            <label class="col-form-label text-left"><%=product.pcondition %></label>
+                        </div>
+                    </div>
+                    <% if(product.forAuction != 1) {%>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Quantity:</span>
+                        </div>
+
+                        <div class="col-md-2 ">
+                            <input value="1" min="1" max="<%=product.quantity%>" name="selqty" id="selqty" class="form-control" type="number" >
+                        </div>
+                        <div class="col-md-2 text-right">
+                            <span><%=product.quantity%> available</span>
+                        </div>
+                    </div>
+                    <%} else {%>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Time Left:</span>
+                        </div>
+                        <%if(!product.isBidUp){%>
+                        <div class="col-md-4 ">
+                            <div class="ctdn" id="clockdiv">
+                                <div>
+                                    <span class="days"></span>
+                                    <span class="smalltext">d</span>
+                                    <span class="hours"></span>
+                                    <span class="smalltext">h</span>
+                                    <span class="minutes"></span>
+                                    <span class="smalltext">m</span>
+                                    <span class="seconds"></span>
+                                    <span class="smalltext">sec</span>
+                                </div>
+                            </div>
+                        </div>
+                        <%} else {%>
+                        <div class="col-md-2 ">
+                            <span>Time up !</span>
+                        </div>
+                        <%}%>
+                        <div class="col-md-5">
+                            <span class="bidnote"><%= product.expTime%></span>
+                        </div>
+                    </div>
+                    <%}%>
+                    <div class="row navbar navbar-default sellerBar noBtmPad">
+                        <% if(product.forAuction != 1) {%>
+                            <div class="form-group row">
+                                <div class="col-md-3 text-right">
+                                    <span class="grey text-right">Price:</span>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <label class="col-form-label text-left">US $<%=product.price %></label>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <form action="/shopping/api/addproduct"  method="POST" id="addProduct">
+                                        <input name="i" value="<%=product.productid %>" type="hidden" >
+                                        <input name="qty"  id="qty" value="" type="hidden" >
+
+                                        <input name="tocart" value="1" type="hidden" >
+                                        <%if(product.quantity > 0){%>
+                                        <input type="submit" id="cart-submit" href="http://localhost:4000/#/cart"
+                                               tabindex="4" class="form-control btn-addToCart " value="Add to Cart"/>
+                                        <%} else{%>
+                                        <label>Out of Stock !</label>
+                                        <%}%>
+                                    </form>​
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="row navbar navbar-default navStat">
+                                        <p class="text-center">188 sold</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row navbar navbar-default navStat">
+                                        <p class="text-center">More than 96% sold</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row navbar navbar-default navStat">
+                                        <p class="text-center">45 inquiries</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <%} else{%>
+                            <div class="form-group row">
+                                <div class="col-md-3 text-right">
+                                    <%if(!product.isBidUp){%>
+                                    <span class="grey text-right">Current Bid:</span>
+                                    <%} else{%>
+                                    <span class="grey text-right">Final Bid:</span>
+                                    <%}%>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <label class="col-form-label text-left">US $<%=product.price %></label>
+                                </div>
+                            </div>
+                        <%if(!product.isBidUp){%>
+                            <div class="form-group row">
+                                <div class="col-md-3"></div>
+                                <form action="/shopping/api/placebid"  method="POST" id="placebid">
+                                <div class="col-md-3">
+                                    <input name="bidamount" min="<%=product.price + 1 %>" value="<%=product.price + 1 %>" class="form-control" type="number" >
+                                    <div>
+                                        <p class="bidnote" >Enter US $<%=product.price + 1 %>.00 or more</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 ">
+                                        <input name="i" value="<%=product.productid %>" type="hidden" >
+                                        <input name="qty" id="qty" value="1" type="hidden" >
+                                        <input type="submit" id="register-submit"
+                                               tabindex="4" class="form-control btn-primary " value="Place Bid"/>
+                                </div>
+                                </form>​
+                            </div>
+                        <%}%>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row navbar navbar-default navStat">
+                                        <p style="padding-top: 10px" class="text-center">Located in United States</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row navbar navbar-default navStat">
+                                        <p style="padding-top: 10px" class="text-center">Limited time remaining</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <%}%>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Shipping:</span>
+                        </div>
+
+                        <div class="col-md-9 ">
+                            <% if(product.delprice == 0){%>
+                            <label class="col-form-label text-left">FREE</label><span> Standard Shipping</span>
+                            <%} else {%>
+                            <label class="col-form-label text-left">$<%=product.delprice %></label>
+                            <%}%>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Delivery:</span>
+                        </div>
+                        <div class="col-md-9 dotted">
+                            <span class="text-left">Estimated on or before </span>
+                            <label class="col-form-label text-left">Tue. Oct. 18 </label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Payments:</span>
+                        </div>
+                        <div class="col-md-9">
+                            <span style="position:relative;">
+                                <img src="http://ir.ebaystatic.com/pictures/aw/pics/logos/CC_icons.png" alt="Visa/MasterCard, Amex, Discover" title="Visa/MasterCard, Amex, Discover" class="pd-pp-cc-container">
+                                <div style="font-size:10px; padding-top:5px;">Credit Cards processed by PayPal</div>
+							</span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Returns:</span>
+                        </div>
+
+                        <div class="col-md-9 ">
+                            <span>30 days money back, buyer pays return shipping |</span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3 text-right">
+                            <span class="grey text-right">Returns:</span>
+                        </div>
+
+                        <div class="col-md-9 ">
+                            <div><span id="vi-ebp2-logo" class="vi-ebp2-logo">eBay Money Back Guarantee</span></div>
+
+                            <div style="font-size:10px; padding-top:5px;">Get the item you ordered or get your money back.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<%if(!product.isBidUp){%>
+<script>
+    function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
+
+    function initializeClock(id, endtime) {
+        var clock = document.getElementById(id);
+        var daysSpan = clock.querySelector('.days');
+        var hoursSpan = clock.querySelector('.hours');
+        var minutesSpan = clock.querySelector('.minutes');
+        var secondsSpan = clock.querySelector('.seconds');
+
+        function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+            if (t.total <= 0) {
+                clearInterval(timeinterval);
+                window.location.href = window.location.href;
+            }
+        }
+
+        updateClock();
+        var timeinterval = setInterval(updateClock, 1000);
+    }
+
+    var deadline = new Date('<%= product.expTime%>');
+    initializeClock('clockdiv', deadline);
+
+</script>
+<%}%>
+<script>
+    $(function () {
+        $("#cart-submit").on("click", function (e) {
+            $("#qty").val($("#selqty").val());
+            $("#addProduct").submit();
+        });
+    })
+</script>
+</html>

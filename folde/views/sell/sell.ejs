@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html ng-app="ebayApp">
+<head>
+    <title>Sell on eBay !</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="/javascripts/authentication.js"></script>
+    <script src="/javascripts/angular.js"></script>
+    <script src="/javascripts/angular-route.js"></script>
+    <script src="/javascripts/common.js"></script>
+    <script src="/javascripts/common.js"></script>
+    <script src="/javascripts/controllers/sellerController.js"></script>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/authentication.css' />
+</head>
+<style>
+    .sellCntrl{
+        height: 35px!important;
+    }
+    .sellLabel{
+        padding-top: 8px;
+    }
+    .tip {
+        font-size: .857em;
+        line-height: 18px;
+        margin-top: 6px;
+    }
+    .tc{
+        margin-left: 20px;
+        padding-right: 20px;
+        color: #666;
+        font-size: .714em;
+    }
+    span.req{color: #f18e00; font-size: 20px}
+    input.sel {
+        background-image: linear-gradient(#555 0,#555 100%)!important;
+        background-color: #555;
+        color: #FFF!important;
+    }
+</style>
+<body>
+<div ng-controller="sellerController" class="container">
+    <div class="row">
+        <div>
+            <img class="" role="presentation" width="150" height="80" style="padding-bottom:20px;" alt=""
+                 src="http://i.imgur.com/7MsuS7J.gif" id="gh-logo">
+        </div>
+    </div>
+    <div ng-hide="result">
+        <form name="myForm">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="panel panel-login">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div><h3>Describe your item</h3></div>
+                                    <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Title</label>
+                                        </div>
+
+                                        <div class="col-md-9">
+                                            <input name="name" required ng-model="data.name" class="sellCntrl form-control" type="text" id="example-text-input">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Condition</label>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <select required ng-options="option.value as option.key for option in productConditions" class="sellCntrl form-control" ng-model="data.pcondition">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label required class="sellLabel col-form-label"><span class="req">* </span>Category</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select ng-change="updateSubCat()" ng-options="option.value as option.key for option in categories" class="sellCntrl form-control" ng-model="data.category">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Subcategory</label>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <select ng-options="option.value as option.key for option in subCategories" class="sellCntrl form-control" ng-model="data.subcategory">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Photo</label>
+                                        </div>
+
+                                        <div class="col-md-9">
+                                            <input ng-model="data.photo" class="sellCntrl form-control" type="url" id="example-text-input">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Description</label>
+                                        </div>
+
+                                        <div class="col-md-9">
+                                            <textarea required ng-model="data.description" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="panel panel-login">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div><h4>Select format and price</h4></div>
+                                    <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label class="sellLabel col-form-label"><span class="req">* </span>Listing format</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>
+                                                Auction is best when you're not sure how much your item could sell for.
+                                            </p>
+                                            <input type="button" ng-Click="showAuction()" ng-class="{'sel' : AuctionTab}"
+                                                   tabindex="4" class="form-control" value="Auction">
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <p>
+                                                Fixed price is best when you know how much you want to get.
+                                            </p>
+                                            <input type="button" ng-click="showFixedPrice()" ng-class="{'sel' : FixedPriceTab}"
+                                                   tabindex="4" class="form-control" value="Fixed price">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </br>
+                            </br>
+                            <div ng-show="AuctionTab" id="aution">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-3 ">
+                                                <label class="sellLabel col-form-label"><span class="req">* </span>Starting price</label>
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="input-group col-md-6">
+                                                    <span class="input-group-addon">$</span>
+                                                    <input type="text" class="form-control" ng-model="data.auction.price">
+                                                </div>
+                                                <div class="tip">Tip: Consider setting the starting price at the minimum you're comfortable with.
+                                                    Your item won't sell for less than this amount.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-3 ">
+                                                <label class="sellLabel col-form-label"><span class="req">* </span>Listing duration</label>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <select ng-model="data.auction.duration" class="sellCntrl form-control ">
+                                                    <option value="3">3 days</option>
+                                                    <option value="5">5 days</option>
+                                                    <option value="7">7 days</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div ng-show="FixedPriceTab" id="fixed">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-3 ">
+                                                <label class="sellLabel col-form-label"><span class="req">* </span>Price</label>
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="input-group col-md-6">
+                                                    <span class="input-group-addon">$</span>
+                                                    <input ng-model="data.fixedprice.price" type="text" class="form-control" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-3 ">
+                                                <label class="sellLabel col-form-label"><span class="req">* </span>Quantity</label>
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="input-group col-md-6">
+                                                    <input ng-model="data.fixedprice.quantity" type="number"  class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-3 ">
+                                                <label class="sellLabel col-form-label"><span class="req">* </span>Listing duration</label>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <select ng-model="data.fixedprice.duration" class=" col-md-4 sellCntrl form-control ">
+                                                    <option value="3">3 days</option>
+                                                    <option value="5">5 days</option>
+                                                    <option value="7">7 days</option>
+                                                    <option value="10">10 days</option>
+                                                    <option value="0">Good 'Til Cancelled</option>
+                                                </select>
+                                                <div class="tip">Tip: Consider setting the starting price at the minimum you're comfortable with.
+                                                    Your item won't sell for less than this amount.</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="panel panel-login">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div><h3>How you'll ship it</h3></div>
+                                    <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                                    <p>
+                                        We'll apply this option based on how similar items shipped.
+                                    </p>
+                                    </br>
+                                    <p>
+                                        <strong>USPS Priority Mail</strong>(1 to 4 business days) — Package (or thick envelope) — 2lbs. — 14.0in. x 8.0in. x 5.0in.
+                                    </p>
+                                    </br>
+                                    <div class="form-group row">
+                                        <div class="col-md-3 ">
+                                            <input id="rDomesticFreeShipping" type="checkbox" ng-model="data.freeShipping"
+                                                   ng-value="true" class="">
+                                            Offer free shipping
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <strong>Or</strong>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        Ship it yourself !
+                                    </h3>
+                                    <br>
+                                    <br>
+                                    <div class="form-group row">
+                                        <di class="col-md-3">
+                                            <label>Shipping Price</label>
+                                        </di>
+                                        <div class="col-md-3 ">
+                                            <input ng-model="data.shippingPrice" class="sellCntrl form-control" type="number" id=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <p class="tc">
+                        <span class="req">*</span> indicates required fields
+                    </p>
+                    <p class="tc req">
+                        If your item sells, we'll charge you a fee that's a percentage of the total amount the buyer pays you.
+                    </p>
+                    <p class="tc">
+                        By clicking the List it button, you agree to pay the fees above, accept the listing conditions above, and assume full responsibility for the content of the listing and item offered.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-offset-7 col-md-2 ">
+                    <input type="button" ng-click="submitForm()" id="register-submit"
+                           tabindex="4" class="form-control btn-register " value="List It">
+                </div>
+
+                <div ng-show="validationError" class="col-md-offset-7 col-md-2 ">
+                    <br>
+                    <label style="color: red">Your form is missing data. Enter data and try again.</label>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div ng-show="result">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-login">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div><h3>Congratulations ! Your product has been listed.</h3></div>
+                                <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                                <p>
+                                    You can find your product for <span ng-bind="sale"></span> on <a href="{{saleUrl}}">http://localhost:4000{{saleUrl}}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+</body>

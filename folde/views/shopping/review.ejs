@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review your Order</title>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="/javascripts/common.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/authentication.css' />
+    <style>
+        .ccInputs{
+            padding: 0 0 4px 0;
+            background: transparent;
+            background-image: none;
+            border: 0 !important;
+            outline: 0;
+            border-bottom: 2px solid #ddd !important;
+            border-radius: 0;
+            background-clip: padding-box;
+            overflow: visible;
+            width:250px;
+        }
+        .checkboxpanel{
+            border-bottom: 1px solid #ccc;
+            padding: 15px;
+            clear: both;
+        }
+        .seller {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .prodImg{
+            max-width: 144px;
+            max-height: 144px;
+            border-radius: 3px;
+            border: 1px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1">
+            <img class="" role="presentation" width="150" height="80" style="padding-bottom:20px;" alt=""
+                 src="http://i.imgur.com/7MsuS7J.gif" id="gh-logo">
+        </div>
+        <div class="col-md-8">
+            <h2>Checkout</h2>
+        </div>
+
+    </div>
+    <br>
+    <div class="row">
+        <form action="/shopping/api/order"  method="POST" id="ordr">
+            <div class="col-md-offset-1 col-md-7">
+                <div class="panel panel-login">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="checkboxpanel">
+                                <div class="col-md-1 text-right">
+                                    <input name="collapseGroup" type="radio"/>
+                                </div>
+                                <span style="color:grey; font-size: 30px; display: inline-block;vertical-align: middle;" class="glyphicon glyphicon-credit-card text-left">
+
+                            </span>
+                                <span style="padding: 5px; display: inline-block;vertical-align: middle;" >   Paypal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="checkboxpanel">
+                                <div class="col-md-1 text-right">
+                                    <input  required name="collapseGroup" type="radio" data-toggle="collapse" data-target="#collapseOne"/>
+                                </div>
+
+                                <span style="color:grey; font-size: 30px; display: inline-block;vertical-align: middle;" class="glyphicon glyphicon-credit-card text-left">
+
+                            </span>
+                                <span style="padding: 5px; display: inline-block;vertical-align: middle;" >   Credit or Debit Card</span>
+                                <span class="pull-right" style="position:relative;">
+                                <img src="http://ir.ebaystatic.com/pictures/aw/pics/logos/CC_icons.png" alt="Visa/MasterCard, Amex, Discover" title="Visa/MasterCard, Amex, Discover" class="pd-pp-cc-container">
+							</span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-6 text-center">
+                                                    <input name="creditCard"  title="Enter valid credit card details" pattern="\b(?:4[0-9]{12}(?:[0-9]{3})?|(?:5[1-5][0-9]{2}|2720|27[01][0-9]|2[3-6][0-9]{2}|22[3-9][0-9]|222[1-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35[0-9]{3})[0-9]{11})\b" required type="text" class="ccInputs" placeholder="Credit Card Number">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 text-center">
+                                                    <input  name="expDate" title="Enter valid date in format MM/YYYY" pattern="^(0[1-9]|1[0-2])/(19|2[0-1])\d{2}$" required type="text" class="ccInputs" placeholder="Expiration Date">
+                                                </div>
+                                                <div class="col-md-6 text-center">
+                                                    <input  name="cvv" title="Enter valid security code" pattern="^[0-9]{3,4}$" required type="text" class="ccInputs" placeholder="Security Code">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 text-center">
+                                                    <input name="firstname" title="Enter valid first name" pattern="^[a-zA-Z]{1,45}$" required type="text" class="ccInputs" placeholder="First name">
+                                                </div>
+                                                <div class="col-md-6 text-center">
+                                                    <input name="lastname" title="Enter valid last name" pattern="^[a-zA-Z]{1,45}$" required type="text" class="ccInputs" placeholder="Last name">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-login">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Items Total Cost:</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="pull-right"><%=cart.total%></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Shipping:</p>
+                            </div>
+                            <div class="col-md-6 pull-right">
+                                <p class="pull-right"><%=cart.totalShipping%></p>
+                            </div>
+                        </div>
+                        <div style="padding:0px 20px 0;"><hr id="ruler"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Order Total:</h4>
+                            </div>
+                            <div class="col-md-6 pull-right">
+                                <h5 class="pull-right">$<%=cart.orderTotal%></h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="submit" class="form-control btn btn-register">Confirm and Pay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-7">
+            <h3 style="color: grey;">Ship to</h3>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-7">
+            <div class="panel panel-login">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><%= order.address %></p>
+                            <p><%= order.city %>, <%= order.state %> <%= order.zipcode %></p>
+                            <p><%= order.country %></p>
+                            <p><%= order.mobileno %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-7">
+            <h3 style="color: grey;">Review items and shipping</h3>
+        </div>
+
+    </div>
+    <div class="row">
+        <%cart.products.forEach(function (prod) {%>
+        <div class="col-md-offset-1 col-md-7">
+            <div class="panel panel-login">
+
+                <div class="seller">Seller :</div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="prodImg" src="<%=prod.url%>">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4><%=prod.name%></h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span><%=prod.description%></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span>Qty: <%=prod.quantity%></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4 pull-right">
+                            <span class="pull-right">
+                                <%="$"+prod.price%>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-5">
+                            <span>USPS Priority Mail Express</span>
+                            <span>Est. delivery: Fri, Oct. 14–Sat, Oct. 15</span>
+                        </div>
+                        <div class="col-md-4 pull-right">
+                            <span class="pull-right">
+                                <%var price = prod.delprice == 0? "Free": "$"+prod.delprice%>
+                                <%=price%>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <%}) %>
+    </div>
+</div>
+</body>
+</html>

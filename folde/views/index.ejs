@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="ebayApp">
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+          crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/stylesheets/css/bootstrap.css"/>
+  <script src="/javascripts/angular.js"></script>
+  <script src="/javascripts/angular-route.js"></script>
+  <script src="/javascripts/common.js"></script>
+  <script src="/javascripts/controllers/homeController.js"></script>
+  <script src="/javascripts/controllers/cartController.js"></script>
+  <script src="/javascripts/controllers/confirmController.js"></script>
+  <script src="/javascripts/events.js"></script>
+  <style>
+    .navbar-default {
+      background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li {
+      background-color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      color: #333;
+      border-bottom: 1px solid transparent;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+      background-color: #fff;
+      color: #333;
+      border-bottom: 2px solid #555;
+    }
+    .nav>li{
+      padding-left: 50px;
+    }
+    .searchDropdown{
+      background: transparent;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+<div ng-include="'views/topHeader.html'"></div>
+</br>
+<div ng-include="'views/searchBox.html'"></div>
+</br>
+<div ng-include="'views/header.html'"></div>
+<div class="container-fluid">
+
+</div>
+<div ng-view></div>
+</body>
+</html>
